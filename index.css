@@ -40,9 +40,14 @@ body {
     font-size: 40px;
 }
 
-h2.title {
+.title {
     text-align: center;
     padding: 100px 0;
+}
+
+.title h2{
+    position: relative;
+    display: inline-block;
 }
 
 .list {
@@ -81,7 +86,7 @@ h2.title {
 .find-me {
     text-align: center;
     background: #222;
-    padding: 100px;
+    padding: 100px 16px;
     color: #ccc;
     margin-top: 100px;
 }
@@ -89,12 +94,40 @@ h2.title {
 .btn {
     display: inline-block;
     background: #FFE339;
+    color: #333;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+.btn-large {
     border-radius: 8px;
     height: 60px;
     width: 180px;
     margin-top: 40px;
     font-size: 18px;
     line-height: 60px;
-    color: #333;
-    text-decoration: none;
+}
+
+.btn-disabled {
+    background: #e8e8e8;
+    color: #8e8e8e;
+}
+
+h2.dz::after {
+    content: '可定制';
+    background: #07c160;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    right: -60px;
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.list button {
+    margin-top: 8px;
 }
