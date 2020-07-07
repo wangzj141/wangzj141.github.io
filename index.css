@@ -21,18 +21,23 @@ body {
     width: 100%;
 }
 
+.header .desc {
+    font-size: 18px;
+}
+
 .info {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 400px;
     margin-left: -200px;
-    margin-top: -37px;
+    margin-top: -92px;
 }
 
 .header h1 {
     margin-top: 0;
     margin-bottom: 8px;
+    font-size: 40px;
 }
 
 h2.title {
@@ -47,6 +52,7 @@ h2.title {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: -100px;
+    box-sizing: border-box;
 }
 
 .list .box {
@@ -58,6 +64,37 @@ h2.title {
     width: 100%;
 }
 
+.list .name {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
 .list .desc {
+    color: #888;
+}
+
+.qrcode {
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+.find-me {
+    text-align: center;
+    background: #222;
+    padding: 100px;
     color: #ccc;
+    margin-top: 100px;
+}
+
+.btn {
+    display: inline-block;
+    background: #FFE339;
+    border-radius: 8px;
+    height: 60px;
+    width: 180px;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 60px;
+    color: #333;
+    text-decoration: none;
 }
