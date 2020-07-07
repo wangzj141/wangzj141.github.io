@@ -1,5 +1,4 @@
 .header {
-
   width: 100%;
   overflow: hidden;
 }
@@ -10,9 +9,8 @@
 }
 
 .info {
-  width: 200px;
-  margin-left: -100px;
-  margin-top: -92px;
+  width: 100%;
+  margin-left: -50%;
 }
 
 .list {
